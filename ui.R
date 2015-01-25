@@ -21,7 +21,7 @@ shinyUI(
       
       div(style = "margin-top: 10px; ", HTML("")),    
       div(style = "margin-top: 20px; ", HTML("Source: <a href='http://data.un.org//'>UN Data</a>")),
-      div(style = "margin-top: 20px; ", HTML("GitHub: <a href='https://github.com/sirujam/developingDataProduct'>Source Code</a>")),
+      div(style = "margin-top: 20px; ", HTML("GitHub: <a href='https://github.com/sirujam/developingDataProduct'>Source Code</a> created with Shiny framework and rCharts")),
       div(style = "margin-top: 20px; ", HTML("<a href='http://sirujam.github.io/courseProjectPitch/index.html'>Presentation :</a> Created with <a href http://ramnathv.github.io/slidify/> slidify </a>"))  
     ),
   
