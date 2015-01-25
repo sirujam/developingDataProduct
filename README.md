@@ -12,4 +12,4 @@ The presentation can be found in [github page.](https://sirujam.github.com/cours
 
 Data Source : [UN Data](http://data.un.org)
 
-The app has been created with [shiny framework](http://shiny.rstudio.com/) and presentation with [slidify framework](http://ramnathv.github.io/slidify/).
+The app has been created with [shiny framework](http://shiny.rstudio.com/), [rCharts](http://rcharts.io) and presentation with [slidify framework](http://ramnathv.github.io/slidify/).
