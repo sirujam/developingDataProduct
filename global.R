@@ -1,9 +1,15 @@
 ## Global.R
-## Load the dataset
 
+## placeholder for easier access from server.R and ui.R
 Mobile_Subscription <- "Mobile Subscription"
 Individual_Internet <- "Internet Usage Percent"
+
+## Load the countryList required for Drop down list 
+countryList <- read.csv("Country_list.csv", stringsAsFactors = FALSE)
+colnames(countryList) <- "Country"
+
 ## Get data and clean the data
+## result :: dataframe
 getUNData <- function(){
   
   mobSubFile <<- "Mobile_Subscription.csv"
@@ -32,9 +38,6 @@ getUNData <- function(){
   rm(mobSub)
   rm(intRate)
   
-  
   ## Segregating mobile era
   return(comb[comb$Year >= 1980,])
 }
-## Load data as global
-r <- getUNData()

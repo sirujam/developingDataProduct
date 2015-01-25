@@ -1,14 +1,16 @@
-require (shiny)
-require (rCharts)
+## ui.R
+library (shiny)
+library (rCharts)
 
+## UI definition
 shinyUI(
   fluidPage(  
-    titlePanel( "Yearwise Trend - Mobile"),
+    titlePanel( "Yearwise Trend - Mobile (1980 - 2014)"),
   
     sidebarPanel(
       div(style = "margin-top: 20px; ", HTML("")),
     
-      selectInput(inputId= "CountryMulti" ,  label =  "Select Country", choices = r$Country, selected = TRUE, multi = TRUE),
+      selectInput(inputId= "CountryMulti" ,  label =  "Select Country", choices = countryList, selected = TRUE, multi = TRUE),
       radioButtons(inputId= "Category" ,  label =  "Category", choices = c(Mobile_Subscription,Individual_Internet)),
     
       div(style = "margin-top: 30px; ", HTML("")),
@@ -20,8 +22,10 @@ shinyUI(
       div(style = "margin-top: 10px; ", HTML("")),    
       div(style = "margin-top: 20px; ", HTML("Source: <a href='http://data.un.org//'>UN Data</a>")),
       div(style = "margin-top: 20px; ", HTML(""))
+        
     ),
   
     mainPanel( showOutput("plotGraph","highcharts"))
   )
 )
+
