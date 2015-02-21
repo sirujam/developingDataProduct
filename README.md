@@ -6,10 +6,18 @@ Additionally internet trend can be selected to explore trend.
 
 The app demo is accesible via [shinyapp.io page.](http://sirujam.shinyapps.io/Telecom_Trend)
 
-Source code can be accessed via [github page.](https://github.com/sirujam/developingDataProduct)
+Source code can be 	 via [github page.](https://github.com/sirujam/developingDataProduct)
 
 The presentation can be found in [github page.](https://sirujam.github.com/courseProjectPitch/index.html)
 
 Data Source : [UN Data](http://data.un.org)
 
-The app has been created with [shiny framework](http://shiny.rstudio.com/), [rCharts](http://rcharts.io) and presentation with [slidify framework](http://ramnathv.github.io/slidify/).
+The app has been created with [shiny framework](http://shiny.rstudio.com/) and presentation with [slidify framework](http://ramnathv.github.io/slidify/).
+
+[MIT License](http://opensource.org/licenses/MIT)
+
+Version 1.01
+    -Bubble Chart added to show relation between internet penetration ratio, mobile subscription per 100 and mobile subscription.
+	-Year has been adjusted to 2013
+Version 1.0
+    -Initial Build
