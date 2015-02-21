@@ -16,8 +16,10 @@ The app has been created with [shiny framework](http://shiny.rstudio.com/) and p
 
 [MIT License](http://opensource.org/licenses/MIT)
 
+__Change Log__  
 Version 1.01
-    -Bubble Chart added to show relation between internet penetration ratio, mobile subscription per 100 and mobile subscription.
-	-Year has been adjusted to 2013
+    - Bubble Chart added to show relation between internet penetration ratio, mobile subscription per 100 and mobile subscription.
+	- Year has been adjusted to 2013
+    
 Version 1.0
-    -Initial Build
+    - Initial Build
