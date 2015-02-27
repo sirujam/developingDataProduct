@@ -1,10 +1,10 @@
 ## Global.R
-## Version 1.01
+## Version 1.02
 
 ## placeholder for easier access from server.R and ui.R
 Mobile_Subscription <- "Mobile Subscription"
 Individual_Internet <- "Internet Usage Percent"
-Mobile_100 <- "Mobile Subscription per 100"
+Mobile_100 <- "Mobile Subscription per 100 inhabitants"
 
 ## Load the countryList required for Drop down list 
 countryList <- read.csv("Country_list.csv", stringsAsFactors = FALSE)

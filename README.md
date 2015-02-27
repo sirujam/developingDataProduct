@@ -17,9 +17,15 @@ The app has been created with [shiny framework](http://shiny.rstudio.com/) and p
 [MIT License](http://opensource.org/licenses/MIT)
 
 __Change Log__  
-Version 1.01
-    - Bubble Chart added to show relation between internet penetration ratio, mobile subscription per 100 and mobile subscription.
+Version 1.02  
+    - Plot for Mobile subscription per 100 inhabitants added.  
+    - Default series for line chart set for initial display (startup).  
+    - Bug for x-axis and y-axis display fixed.  
+    - Tooltip decimal formatting limited to 2 digits
+
+Version 1.01  
+    - Bubble Chart added to show relation between internet penetration ratio, mobile subscription per 100 and mobile subscription.  
 	- Year has been adjusted to 2013
     
-Version 1.0
-    - Initial Build
+Version 1.0  
+    - Initial Build  
